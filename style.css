@@ -872,10 +872,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left); /* warning p-erronee */
-        padding-right: constant(safe-area-inset-right); /* warning p-erronee */
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
