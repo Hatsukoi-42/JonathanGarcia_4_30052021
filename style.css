@@ -743,6 +743,21 @@ h4 {
     color: black; /* warning contrast DONE */
 }
 
+/* warning bad-image*/
+.quote {
+    font-weight: 800;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
+
+/* warning bad-image*/
+.pg-bold {
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
