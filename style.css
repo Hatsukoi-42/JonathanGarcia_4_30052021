@@ -882,7 +882,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { /* warning deprecated DONE */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { /* warning deprecated DONE */
     .b-parallax {
         background-attachment: scroll;
     }
@@ -908,8 +908,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left); /* warning p-erronee */
-        padding-right: constant(safe-area-inset-right); /* warning p-erronee */
     }
 }
 
